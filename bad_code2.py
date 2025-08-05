@@ -1,7 +1,9 @@
+# bad_code2.py
+
 import subprocess
 
-def run_cmd():
+def list_files():
     subprocess.call("ls -la", shell=True)
 
-def run_cmd2():
+def duplicate_code():
     subprocess.call("ls -la", shell=True)
