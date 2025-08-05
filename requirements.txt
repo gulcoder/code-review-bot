@@ -1,0 +1,9 @@
+openai
+python-dotenv
+requests
+GitPython
+ast
+radon
+bandit
+httpx
+pygithub

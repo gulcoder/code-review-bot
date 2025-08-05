@@ -1,0 +1,53 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs och editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Loggfiler och databaser
+*.log
+*.sqlite3
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage.py cache files
+.coverage
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Git files
+.gitignore
+
+# Files created by pipenv
+Pipfile.lock
+
+cloned_repo/
