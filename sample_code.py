@@ -3,9 +3,9 @@ import subprocess
 def complex_function(x):
     if x > 0:
         for i in range(x):
-            print(i)
+            logging.info(i)
     else:
-        print("No numbers")
+        logging.info("No numbers")
 
 def insecure_function():
     # Bandit gillar inte detta, risk för command injection
@@ -15,6 +15,6 @@ def another_function():
     # Lite komplexitet med flera villkor
     if True:
         if False:
-            print("Unreachable")
+            logging.info("Unreachable")
         else:
-            print("Hello")
+            logging.info("Hello")
