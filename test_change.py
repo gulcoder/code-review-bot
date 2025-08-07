@@ -1,11 +1,12 @@
 # test_change.py
 
 import subprocess
-import os
 
 def bad_function():
-    subprocess.call("ls -l", shell=True)  # bör ändras till lista och utan shell=True
+    # Osäker användning av subprocess med shell=True
+    subprocess.call("ls -l", shell=True)
 
-bad_function()
+if __name__ == "__main__":
+    bad_function()
+    print("Detta är en teständring som boten borde refaktorera.")
 
-print("Detta är en teständring som boten borde refaktorera.")
